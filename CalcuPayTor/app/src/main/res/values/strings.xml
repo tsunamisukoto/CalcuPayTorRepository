@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">CalcuPayTor</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Manage Jobs</string>
+    <string name="action_disclaimer">Disclaimer</string>
+    <string name="title_activity_new_pay_record">New Pay Record</string>
+    <string name="title_activity_weekly_pay_modifiers">Pay Modifiers</string>
+    <string name="title_activity_view_all_rule_sets">View All Jobs</string>
+    <string name="title_activity_add_edit_rule_set">Add Edit Job</string>
+    <string name="title_activity_calculate_final_pay">Calculate Final Pay</string>
+    <string name="title_activity_add_edit_modifier">Add/Edit Modifier</string>
+    <string name="title_activity_add_edit_pay_bracket">Add/Edit Tax Bracket</string>
+    <string name="title_activity_disclaimer">Disclaimer</string>
+    <string name="activity_disclaimer">This product is created for the sole purpose of getting an approximation of how much pay you are entitled
+     to in a week. It is not guaranteed to be exact.\n
+    There are many factors that should be taken into account when using this app. Factors such as:\n\n<b>Order of Operations</b>\n<b>Individual calculation logic that we don\'t account for</b>\n<b>etc.</b>\n\nAre not guaranteed to calculate exactly as your pay slip program would.
+    The more complicated a job\'s pay rule set is, the less likely CalcuPayTor is to calculate exactly.
+    </string>
+</resources>

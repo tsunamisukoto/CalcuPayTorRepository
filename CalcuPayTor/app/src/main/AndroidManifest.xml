@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.developmentalstudios.developmental.calcupaytor" >
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/appicon"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".ViewHours"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".DatabaseManager.Views.AddEditPayRecord"
+            android:label="@string/title_activity_new_pay_record" >
+        </activity>
+        <activity
+            android:name=".DatabaseManager.Views.ViewWeeklyPayModifiers"
+            android:label="@string/title_activity_weekly_pay_modifiers" >
+        </activity>
+        <activity
+            android:name=".DatabaseManager.Views.ViewAllRuleSets"
+            android:label="@string/title_activity_view_all_rule_sets" >
+        </activity>
+        <activity
+            android:name=".DatabaseManager.Views.AddEditRuleSet"
+            android:label="@string/title_activity_add_edit_rule_set" >
+        </activity>
+        <activity
+            android:name=".DatabaseManager.Views.CalculateFinalPay"
+            android:label="@string/title_activity_calculate_final_pay" >
+        </activity>
+        <activity
+            android:name=".DatabaseManager.Views.AddEditModifier"
+            android:label="@string/title_activity_add_edit_modifier" >
+        </activity>
+        <activity
+            android:name=".DatabaseManager.Views.AddEditPayBracket"
+            android:label="@string/title_activity_add_edit_pay_bracket" >
+        </activity>
+        <activity
+            android:name=".DatabaseManager.Views.Disclaimer"
+            android:label="@string/title_activity_disclaimer" >
+        </activity>
+    </application>
+
+</manifest>

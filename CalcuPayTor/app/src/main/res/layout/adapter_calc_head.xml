@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="fill_parent"
+              android:layout_height="wrap_content"
+              android:orientation="vertical"
+              android:padding="8dp"
+              android:background="@drawable/buttonshape2"
+    >
+
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#151515">
+
+        <TextView
+            android:id="@+id/lblListHeader"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="?android:attr/expandableListPreferredItemPaddingLeft"
+            android:textSize="20dp"
+            android:layout_weight="3"
+            android:textIsSelectable="false"
+            android:text="Name"
+            android:background="#151515"/>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="4"
+            android:background="#151515">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Hours on Wage"
+                android:id="@+id/textView16"
+                android:gravity="right"
+                android:textSize="10dp"
+                android:background="#151515"/>
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/lblHours"
+                android:text="0"
+                android:gravity="right"
+                android:background="#151515"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Overtime Hours"
+                android:id="@+id/textView20"
+                android:textSize="10dp"
+                android:gravity="right"
+                android:background="#151515"/>
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/lblOverTimeHours"
+                android:gravity="right"
+                android:text="0"
+                android:background="#151515"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="4"
+            android:background="#151515">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#151515">
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="false"
+                    android:layout_alignParentBottom="true"
+                    android:background="#151515">
+
+                    <TextView
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Gross Pay"
+                        android:id="@+id/textView22"
+                        android:textSize="10dp"
+                        android:gravity="right"
+                        android:background="#151515"/>
+
+                    <TextView
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:text="0"
+                        android:id="@+id/lblGrossPay"
+                        android:gravity="right"
+                        android:layout_below="@+id/textView22"
+                        android:background="#151515"/>
+                </LinearLayout>
+
+            </RelativeLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="4"
+            android:background="#151515">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Total Wage"
+                android:id="@+id/textView17"
+                android:gravity="right"
+                android:textSize="10dp"
+                android:background="#151515"/>
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/lblPay"
+                android:gravity="right"
+                android:text="0"
+                android:background="#151515"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="OvertimePay"
+                android:id="@+id/textView21"
+                android:layout_gravity="right"
+                android:textSize="10dp"
+                android:gravity="right"
+                android:background="#151515"/>
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/lblOvertimePayhead"
+                android:gravity="right"
+                android:text="0"
+                android:background="#151515"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Tax"
+                android:id="@+id/textView18"
+                android:gravity="right"
+                android:textSize="10dp"
+                android:background="#151515"/>
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="0"
+                android:id="@+id/lblTaxTotal"
+                android:layout_gravity="right"
+                android:gravity="right"
+                android:background="#151515"/>
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#151515">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#333">
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="NetPay"
+                android:id="@+id/textView24"
+                android:gravity="right"
+                android:background="#151515"/>
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="0"
+                android:id="@+id/lblNetPay"
+                android:gravity="right"
+                android:background="#151515"/>
+        </LinearLayout>
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tap for More Details"
+        android:id="@+id/textView19"
+        android:layout_gravity="center_horizontal"
+        android:textSize="10dp"
+        android:background="#151515"/>
+
+</LinearLayout>
